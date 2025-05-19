@@ -50,6 +50,6 @@ Task: Find all active accounts (savings or investments) with no transactions in 
 * There is a high risk of misinterpreting what the expected output should be.
 
 ## Overall challenges
-* Time Constraints hence I am stopping at Question 3
+
 * Unfamiliarity with database schema
 * Minimal knowledge on how to measure query performance
