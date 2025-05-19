@@ -4,9 +4,9 @@
 Task: Write a query to find customers with at least one funded savings plan AND one funded investment plan, sorted by total deposits.
 
 ### Approach:
-Filtered plans table using flags: is_regular_savings and is_a_fund to extract savings and investment transactions.
-Used JOIN to connect users_customuser, savings_savingsaccount, and filtered_plan CTE to ensure only matching keys are returned hence actual transactions was completed.
-Applied conditional aggregation using COUNT(CASE WHEN ...) to count the accurate number of savings and investments.
+* Filtered plans table using flags: is_regular_savings and is_a_fund to extract savings and investment transactions.
+* Used JOIN to connect users_customuser, savings_savingsaccount, and filtered_plan CTE to ensure only matching keys are returned hence actual transactions was completed.
+* Applied conditional aggregation using COUNT(CASE WHEN ...) to count the accurate number of savings and investments.
 
 ### Challenges:
 Spent a lot of time looking at the tables and trying to understanding the database schema.
